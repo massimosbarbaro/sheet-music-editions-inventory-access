@@ -1,0 +1,22 @@
+{
+  "title": "Inventory of printed music editions for a music archive (Microsoft Access, 2022)",
+  "upload_type": "software",
+  "description": "<p><em>Inventario delle edizioni musicali a stampa di un archivio musicale</em></p><p>This database, with a Slovene interface, inventories the printed music editions of a music archive. Each item records edition mark, old mark, composer, title, publisher, year of publication, type of notation and number of copies, and is classified by typology.</p><p>Designed and programmed by Massimo Sbarbaro in 2022 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "music archive",
+    "sheet music",
+    "inventory",
+    "Slovene"
+  ],
+  "version": "2022",
+  "language": "eng",
+  "notes": "Original development: 2022."
+}

@@ -1,0 +1,1300 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =1952789626
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularCharSet =162
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11656
+    DatasheetFontHeight =11
+    ItemSuffix =55
+    Right =17235
+    Bottom =7590
+    DatasheetGridlinesColor =15062992
+    Filter ="([Arhiv].[IdArhiv]=2792)"
+    RecSrcDt = Begin
+        0x658afe46b36de540
+    End
+    GUID = Begin
+        0x3a9cc1a8a2f3bf4db6842c2744f659b9
+    End
+    RecordSource ="Arhiv"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =255
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AsianLineBreak =1
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+        End
+        Begin FormHeader
+            Height =1595
+            BackColor =-2147483612
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xba4acc3ce011b0449e0d9e6aefd740ce
+            End
+            AutoHeight =1
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =1
+                    Left =2494
+                    Top =226
+                    Width =2430
+                    Height =1020
+                    FontSize =28
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =-2147483615
+                    Name ="Auto_Title0"
+                    Caption ="Arhiv"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0x65120fdcb926194a9621ebad4a175847
+                    End
+                    GridlineColor =-2147483616
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =2494
+                    LayoutCachedTop =226
+                    LayoutCachedWidth =4924
+                    LayoutCachedHeight =1246
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =10764
+                    Top =623
+                    Width =780
+                    Height =359
+                    ColumnOrder =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="ID"
+                    ControlSource ="ID"
+                    GUID = Begin
+                        0xdc7f8eb3c971c5459383f273ea8faade
+                    End
+
+                    LayoutCachedLeft =10764
+                    LayoutCachedTop =623
+                    LayoutCachedWidth =11544
+                    LayoutCachedHeight =982
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =215
+                            TextAlign =1
+                            Left =9070
+                            Top =623
+                            Width =1634
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta1"
+                            Caption ="ID:"
+                            GUID = Begin
+                                0xad834e20cccb164b93cf5f9c38ab5485
+                            End
+                            LayoutCachedLeft =9070
+                            LayoutCachedTop =623
+                            LayoutCachedWidth =10704
+                            LayoutCachedHeight =982
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =10712
+                    Top =1135
+                    Width =861
+                    Height =315
+                    ColumnOrder =0
+                    TabIndex =1
+                    Name ="TxtIdArhiv"
+                    ControlSource ="IdArhiv"
+                    GUID = Begin
+                        0x6dfb04954d037e4086c5c3b259f7c07f
+                    End
+
+                    LayoutCachedLeft =10712
+                    LayoutCachedTop =1135
+                    LayoutCachedWidth =11573
+                    LayoutCachedHeight =1450
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =9751
+                            Top =1133
+                            Width =915
+                            Height =315
+                            Name ="Etichetta24"
+                            Caption ="St. Arhiv:"
+                            GUID = Begin
+                                0x2f6b4291d46e21409057fbfbe9e0276a
+                            End
+                            LayoutCachedLeft =9751
+                            LayoutCachedTop =1133
+                            LayoutCachedWidth =10666
+                            LayoutCachedHeight =1448
+                        End
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =3626
+            BackColor =16381933
+            Name ="Corpo"
+            GUID = Begin
+                0x32b3f1a1a04baf41894dbcdb63b2983a
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1998
+                    Top =603
+                    Width =3975
+                    Height =585
+                    ColumnWidth =1875
+                    ColumnOrder =8
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="OZNAKA IZDAJE"
+                    ControlSource ="OZNAKA IZDAJE"
+                    EventProcPrefix ="OZNAKA_IZDAJE"
+                    GUID = Begin
+                        0xad21866aa7859640a6232a5e3116dfe8
+                    End
+
+                    LayoutCachedLeft =1998
+                    LayoutCachedTop =603
+                    LayoutCachedWidth =5973
+                    LayoutCachedHeight =1188
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =304
+                            Top =603
+                            Width =1634
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta5"
+                            Caption ="OZNAKA IZDAJE:"
+                            GUID = Begin
+                                0x4d47af8b51f63a40b691ce3e5d79742f
+                            End
+                            LayoutCachedLeft =304
+                            LayoutCachedTop =603
+                            LayoutCachedWidth =1938
+                            LayoutCachedHeight =1188
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1998
+                    Top =1263
+                    Width =3975
+                    Height =585
+                    ColumnWidth =2130
+                    ColumnOrder =7
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="STARA OZNAKA"
+                    ControlSource ="STARA OZNAKA"
+                    EventProcPrefix ="STARA_OZNAKA"
+                    GUID = Begin
+                        0x14744f96b7e0b24e83ef924080b0cacc
+                    End
+
+                    LayoutCachedLeft =1998
+                    LayoutCachedTop =1263
+                    LayoutCachedWidth =5973
+                    LayoutCachedHeight =1848
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =304
+                            Top =1263
+                            Width =1634
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta7"
+                            Caption ="STARA OZNAKA:"
+                            GUID = Begin
+                                0xe7cb27ab3e51fc4f80471cf9dfbd8ab7
+                            End
+                            LayoutCachedLeft =304
+                            LayoutCachedTop =1263
+                            LayoutCachedWidth =1938
+                            LayoutCachedHeight =1848
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1998
+                    Top =1923
+                    Width =3975
+                    Height =585
+                    ColumnWidth =2595
+                    ColumnOrder =6
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="SKLADATELJ"
+                    ControlSource ="SKLADATELJ"
+                    GUID = Begin
+                        0xf827f754dbbde443864fdf75651ef3ce
+                    End
+
+                    LayoutCachedLeft =1998
+                    LayoutCachedTop =1923
+                    LayoutCachedWidth =5973
+                    LayoutCachedHeight =2508
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =304
+                            Top =1923
+                            Width =1634
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta9"
+                            Caption ="SKLADATELJ:"
+                            GUID = Begin
+                                0x34c2a87812a704488db2cdd86baa1bd5
+                            End
+                            LayoutCachedLeft =304
+                            LayoutCachedTop =1923
+                            LayoutCachedWidth =1938
+                            LayoutCachedHeight =2508
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1998
+                    Top =2583
+                    Width =3975
+                    Height =585
+                    ColumnWidth =4500
+                    ColumnOrder =5
+                    TabIndex =4
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="NASLOV"
+                    ControlSource ="NASLOV"
+                    GUID = Begin
+                        0xab3d009b15176a4f938bd6a0685434b5
+                    End
+
+                    LayoutCachedLeft =1998
+                    LayoutCachedTop =2583
+                    LayoutCachedWidth =5973
+                    LayoutCachedHeight =3168
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =304
+                            Top =2583
+                            Width =1634
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta11"
+                            Caption ="NASLOV:"
+                            GUID = Begin
+                                0xa404931d3d556145ae2557d7febb251c
+                            End
+                            LayoutCachedLeft =304
+                            LayoutCachedTop =2583
+                            LayoutCachedWidth =1938
+                            LayoutCachedHeight =3168
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7603
+                    Top =113
+                    Width =3975
+                    Height =585
+                    ColumnWidth =1920
+                    ColumnOrder =4
+                    TabIndex =5
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IZDANO"
+                    ControlSource ="IZDANO"
+                    GUID = Begin
+                        0x4a7a8aa1d0b9224f83e783dff0ddaeab
+                    End
+
+                    LayoutCachedLeft =7603
+                    LayoutCachedTop =113
+                    LayoutCachedWidth =11578
+                    LayoutCachedHeight =698
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6179
+                            Top =113
+                            Width =1364
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta13"
+                            Caption ="IZDANO:"
+                            GUID = Begin
+                                0x95998358ffc5e94d9ed566e095158390
+                            End
+                            LayoutCachedLeft =6179
+                            LayoutCachedTop =113
+                            LayoutCachedWidth =7543
+                            LayoutCachedHeight =698
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7603
+                    Top =773
+                    Width =3975
+                    Height =359
+                    ColumnOrder =3
+                    TabIndex =6
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="LETO IZDAJE"
+                    ControlSource ="LETO IZDAJE"
+                    EventProcPrefix ="LETO_IZDAJE"
+                    GUID = Begin
+                        0x4ff7ddf8447fe64bba27ad7dd8fd6e72
+                    End
+
+                    LayoutCachedLeft =7603
+                    LayoutCachedTop =773
+                    LayoutCachedWidth =11578
+                    LayoutCachedHeight =1132
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6179
+                            Top =773
+                            Width =1364
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta15"
+                            Caption ="LETO IZDAJE:"
+                            GUID = Begin
+                                0x27b370b41d51a14a81d5003a4d5d3cfd
+                            End
+                            LayoutCachedLeft =6179
+                            LayoutCachedTop =773
+                            LayoutCachedWidth =7543
+                            LayoutCachedHeight =1132
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7603
+                    Top =1207
+                    Width =3975
+                    Height =585
+                    ColumnOrder =2
+                    TabIndex =7
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="NOTNI ZAPIS"
+                    ControlSource ="NOTNI ZAPIS"
+                    EventProcPrefix ="NOTNI_ZAPIS"
+                    GUID = Begin
+                        0x7896e66cfb0b0a4fbb750a9a0ce7fa69
+                    End
+
+                    LayoutCachedLeft =7603
+                    LayoutCachedTop =1207
+                    LayoutCachedWidth =11578
+                    LayoutCachedHeight =1792
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6179
+                            Top =1207
+                            Width =1364
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta17"
+                            Caption ="NOTNI ZAPIS:"
+                            GUID = Begin
+                                0xee916adede070d4691f8c9ccef493b02
+                            End
+                            LayoutCachedLeft =6179
+                            LayoutCachedTop =1207
+                            LayoutCachedWidth =7543
+                            LayoutCachedHeight =1792
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7603
+                    Top =1867
+                    Width =3975
+                    Height =585
+                    ColumnOrder =1
+                    TabIndex =8
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="KOS"
+                    ControlSource ="KOS"
+                    GUID = Begin
+                        0x29bfd8359e3f8e448085b85ef24bc6ff
+                    End
+
+                    LayoutCachedLeft =7603
+                    LayoutCachedTop =1867
+                    LayoutCachedWidth =11578
+                    LayoutCachedHeight =2452
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6179
+                            Top =1867
+                            Width =1364
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta19"
+                            Caption ="KOS:"
+                            GUID = Begin
+                                0x4abd0176e101264bbef899fa0149c0ea
+                            End
+                            LayoutCachedLeft =6179
+                            LayoutCachedTop =1867
+                            LayoutCachedWidth =7543
+                            LayoutCachedHeight =2452
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7603
+                    Top =2527
+                    Width =3975
+                    Height =585
+                    ColumnOrder =0
+                    TabIndex =9
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Polje1"
+                    ControlSource ="Polje1"
+                    GUID = Begin
+                        0xa397a31e54445848a6c3ef330c67a484
+                    End
+
+                    LayoutCachedLeft =7603
+                    LayoutCachedTop =2527
+                    LayoutCachedWidth =11578
+                    LayoutCachedHeight =3112
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6179
+                            Top =2527
+                            Width =1364
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =-2147483615
+                            Name ="Etichetta21"
+                            Caption ="Polje1:"
+                            GUID = Begin
+                                0x18e87f142a5340418680afa28da3d243
+                            End
+                            LayoutCachedLeft =6179
+                            LayoutCachedTop =2527
+                            LayoutCachedWidth =7543
+                            LayoutCachedHeight =3112
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1984
+                    Top =56
+                    Width =3969
+                    Height =315
+                    ColumnOrder =9
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xd7a2d42d2b591b4a9a53af9bba4fd7c5
+                    End
+                    Name ="CnbTipologija"
+                    ControlSource ="IdT"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [Tipologija].[IdT], [Tipologija].[Tipologija] FROM Tipologija ORDER BY [T"
+                        "ipologija]; "
+                    ColumnWidths ="0;1440"
+                    BaseInfo ="\"SELECT [Tipologija].[IdT], [Tipologija].[Tipologija] FROM Tipologija ORDER BY "
+                        "[Tipologija]; \";\"Tipologija\";\"\";\"IdT\";\"Tipologija\";\"PrimaryKey\""
+                    OnDblClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="fTipologija"
+                            Argument ="0"
+                            Argument =""
+                            Argument =""
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"CnbTipologija\" xmlns=\"http://schemas.microsoft.com/office/"
+                                "accessservices/2009/11/application\"><Statements><Action Name=\"OpenForm\"><Argu"
+                                "ment Name=\"FormName\">fTipologij"
+                        End
+                        Begin
+                            Comment ="_AXL:a</Argument></Action></Statements></UserInterfaceMacro>"
+                        End
+                    End
+
+                    LayoutCachedLeft =1984
+                    LayoutCachedTop =56
+                    LayoutCachedWidth =5953
+                    LayoutCachedHeight =371
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =283
+                            Top =56
+                            Width =1635
+                            Height =320
+                            Name ="TIPOLOGIJA_Etichetta"
+                            Caption ="TIPOLOGIJA"
+                            GUID = Begin
+                                0x53a5b23b4fb10a42afd3a15dd3710bb9
+                            End
+                            LayoutCachedLeft =283
+                            LayoutCachedTop =56
+                            LayoutCachedWidth =1918
+                            LayoutCachedHeight =376
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1077
+            BackColor =15788753
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xb9c423ebe4a14e4781f4fbdf19c39417
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =2
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =340
+                    Top =170
+                    Width =3338
+                    Height =794
+                    BackColor =13017476
+                    Name ="Casella30"
+                    GUID = Begin
+                        0xa1483ef7301e6d45999106af9451d502
+                    End
+                    LayoutCachedLeft =340
+                    LayoutCachedTop =170
+                    LayoutCachedWidth =3678
+                    LayoutCachedHeight =964
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =10828
+                    Top =226
+                    Width =576
+                    Height =576
+                    Name ="CmdEsci"
+                    Caption ="Comando25"
+                    ControlTipText ="Chiudi applicazione"
+                    GUID = Begin
+                        0xa0abba1f62017d49b425e57fdbb939bb
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="Quit"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"CmdEsci\" xmlns=\"http://schemas.microsoft.com/office/access"
+                                "services/2009/11/application\"><Statements><Action Name=\"QuitAccess\"><Argument"
+                                " Name=\"Options\">Prompt</Argumen"
+                        End
+                        Begin
+                            Comment ="_AXL:t></Action></Statements></UserInterfaceMacro>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000010081080 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000040485020100810e0104050ff ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000040404080405860ff106890ff2080a0f0 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000607070ff80a0b0ff4080a0ff20a0d0ff40a8e0ff2078a0ff ,
+                        0x101020ff101020ff000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000708890ffa0d8f0ff60d0ffff50c0f0ff30a8e0ff1080b0ff ,
+                        0xe0d8d0ff102020ff000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000708890ffb0e8f0ff80e0ffff60c8f0ff50b8f0ff1088c0ff ,
+                        0xf0d8d0ff202830ff000000000000000090482030904820ff0000000000000000 ,
+                        0x0000000000000000808890ffb0e8f0ff80e0ffff60d0ffff404050ff1090c0ff ,
+                        0xf0e0d0ff303840ff0000000090482030a05030ffa05020ff0000000000000000 ,
+                        0x00000000000000008090a0ffc0f0ffff90e0ffff70d8ffff60c8f0ff0090c0ff ,
+                        0xf0e0e0ff404050ff90482030a05030ffd07840ffb05830ffa05020ffa04820ff ,
+                        0x904820ff904820ff8090a0ffc0f0ffffa0e8ffff80d8ffff70d0f0ff40b0e0ff ,
+                        0xf0e8e0ff605050ffa05830ffe08860fff09060fff08850ffe07850ffd07040ff ,
+                        0xb06840ff904820ff8098a0ffc0f0ffffa0e8ffff90e8ffff80e0ffff80b8d0ff ,
+                        0xf0e8e0ffe09870ffffc0a0ffffb090ffffa070fff09060fff08850ffe07850ff ,
+                        0xd07040ffa05020ff8098a0ffc0f0ffffc0f8ffffa0e0f0ff90a8b0ffc0c8d0ff ,
+                        0xf0f0e0ff908080fff0a070ffffc0a0ffffb090ffffb090ffffa880fff0a080ff ,
+                        0xe09870ffb05030ff90a0a0ffe0f8ffffb0c8d0ff90a0b0fff0f0f0fffff8f0ff ,
+                        0xf0f0f0ff607080ffe0987050f0a070ffffc0a0ffd06830ffe09870ffe09060ff ,
+                        0xe08860ffe08050ff90a0b0ff90a8b0ffc0c8d0ffffffffffffffffffffffffff ,
+                        0xffffffff708890ff00000000e0987050e09870ffd07040ff0000000000000000 ,
+                        0x000000000000000090a0b0ff90a0b0ff90a0b0ff90a0b0ff90a0a0ff8098a0ff ,
+                        0x8098a0ff9098a0ff0000000000000000e0987050e09870ff0000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =10828
+                    LayoutCachedTop =226
+                    LayoutCachedWidth =11404
+                    LayoutCachedHeight =802
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =560
+                    Top =283
+                    Width =576
+                    Height =576
+                    TabIndex =1
+                    Name ="cmdFirst"
+                    Caption ="Comando26"
+                    ControlTipText ="Primo record"
+                    GUID = Begin
+                        0xab13574aa21c884eae2e431324607399
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="GoToRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="2"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdFirst\" xmlns=\"http://schemas.microsoft.com/office/acces"
+                                "sservices/2009/11/application\"><Statements><Action Name=\"GoToRecord\"><Argumen"
+                                "t Name=\"Record\">First</Argument"
+                        End
+                        Begin
+                            Comment ="_AXL:></Action></Statements></UserInterfaceMacro>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000d06840ff904820ff904820ff00000000 ,
+                        0x000000000000000000000000b0482000b0482050000000000000000000000000 ,
+                        0x00000000000000000000000000000000e06830ffe07850ff905030ff00000000 ,
+                        0x000000000000000000000000b0502050904820ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e06830fff08850ffa05030ff00000000 ,
+                        0x0000000000000000a0482040d06830ff905030ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e07040fff09060ffa05830ff00000000 ,
+                        0x00000000b0502040d06030fff06820ffa05030ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e07840fff09070ffb06040ff00000000 ,
+                        0xb0502050d06830fff07030fff06820ffa05830ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e07850fff09870ffb06840ffb0502050 ,
+                        0xe07040ffffa060fff08850fff07030ffb06040ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e08050fff0a080ffc07040ffe08850ff ,
+                        0xffc0a0ffffb090ffffa070ffff8040ffb06840ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e08860fff0a890ffd07850ffe0906040 ,
+                        0xe08850ffffc0a0ffffb080ffff8850ffc07040ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e09060fff0b890ffd07850ffe0906000 ,
+                        0xe0906040e08860ffffc0a0ffff9870ffd07850ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e09870fff0c0a0ffd08050ff00000000 ,
+                        0xe0906000e0906040e08860ffffc0a0ffd07850ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e09870fff0c8b0ffe08850ff00000000 ,
+                        0x00000000e0906000f0906030e08860ffd08050ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000e09870ffe0a080ffe08860f000000000 ,
+                        0x0000000000000000e0906000f0906020e08850ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000e0906000e0906020000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000e0906000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =560
+                    LayoutCachedTop =283
+                    LayoutCachedWidth =1136
+                    LayoutCachedHeight =859
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =1341
+                    Top =283
+                    Width =576
+                    Height =576
+                    TabIndex =2
+                    Name ="cmdPre"
+                    Caption ="Comando27"
+                    ControlTipText ="Record precedente"
+                    GUID = Begin
+                        0x536cac52bc8e154289c85ae97cd0de85
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="GoToRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[MacroError]<>0"
+                            Action ="MsgBox"
+                            Argument ="=[MacroError].[Description]"
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdPre\" xmlns=\"http://schemas.microsoft.com/office/accesss"
+                                "ervices/2009/11/application\"><Statements><Action Name=\"OnError\"/><Action Name"
+                                "=\"GoToRecord\"><Argument Name=\"R"
+                        End
+                        Begin
+                            Comment ="_AXL:ecord\">Previous</Argument></Action><ConditionalBlock><If><Condition>[Macro"
+                                "Error]&lt;&gt;0</Condition><Statements><Action Name=\"MessageBox\"><Argument Nam"
+                                "e=\"Message\">=[MacroError].[Description]</Argument></Action></Statements></If><"
+                                "/ConditionalBlock>"
+                        End
+                        Begin
+                            Comment ="_AXL:</Statements></UserInterfaceMacro>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000b0482000b0482050000000000000000000000000 ,
+                        0x0000000000000000000000004068ff0000000000000000000000000000000000 ,
+                        0x000000000000000000000000b0502050904820ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000a0482040d06830ff905030ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000b0502040d06030fff06820ffa05030ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xb0502050d06830fff07030fff06820ffa05830ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000b0502050 ,
+                        0xe07040ffffa060fff08850fff07030ffb06040ff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000d0704040e08850ff ,
+                        0xffc0a0ffffb090ffffa070ffff8040ffb06840ff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000e0906000e0906040 ,
+                        0xe08850ffffc0a0ffffb080ffff8850ffc07040ff000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e0906000 ,
+                        0xe0906040e08860ffffc0a0ffff9870ffd07850ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xe0906000e0906040e08860ffffc0a0ffd07850ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000e0906000f0906030e08860ffd08050ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000e0906000f0906020e08850ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000e0906000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =1341
+                    LayoutCachedTop =283
+                    LayoutCachedWidth =1917
+                    LayoutCachedHeight =859
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =2122
+                    Top =283
+                    Width =576
+                    Height =576
+                    TabIndex =3
+                    Name ="cmdNext"
+                    Caption ="Comando28"
+                    ControlTipText ="Record successivo"
+                    GUID = Begin
+                        0x2d445cbea2e62440a689a9ee1fb20973
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="GoToRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="1"
+                        End
+                        Begin
+                            Condition ="[MacroError]<>0"
+                            Action ="MsgBox"
+                            Argument ="=[MacroError].[Description]"
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdNext\" xmlns=\"http://schemas.microsoft.com/office/access"
+                                "services/2009/11/application\"><Statements><Action Name=\"OnError\"/><Action Nam"
+                                "e=\"GoToRecord\"/><ConditionalBlo"
+                        End
+                        Begin
+                            Comment ="_AXL:ck><If><Condition>[MacroError]&lt;&gt;0</Condition><Statements><Action Name"
+                                "=\"MessageBox\"><Argument Name=\"Message\">=[MacroError].[Description]</Argument"
+                                "></Action></Statements></If></ConditionalBlock></Statements></UserInterfaceMacro"
+                                ">"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000b0482050 ,
+                        0xb048200000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e06830ff ,
+                        0xb050205000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e06830ff ,
+                        0x904820ffa0482040000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e07040ff ,
+                        0xd07040ff904820ffb05020400000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e07840ff ,
+                        0xe08850ffd05820ff904820ffb050205000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e07850ff ,
+                        0xf0a070fff07830ffd05820ff904820ffb0502050000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e08050ff ,
+                        0xf0b080ffff9860fff07830ffd05820ffa05830ffd0704060e090600000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e08860ff ,
+                        0xffb890ffffa870ffff9860ffd07040ffe0906040e09060000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e09060ff ,
+                        0xffc0a0ffffb890ffd07840ffe0906040e0906000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xffc0a0ffe08050f0e0906040e090600000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xe08860fff0906030e09060000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xf0906020e0906000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e0906020 ,
+                        0xe090600000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e0906000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =2122
+                    LayoutCachedTop =283
+                    LayoutCachedWidth =2698
+                    LayoutCachedHeight =859
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =2903
+                    Top =283
+                    Width =576
+                    Height =576
+                    TabIndex =4
+                    Name ="cmdLast"
+                    Caption ="Comando29"
+                    ControlTipText ="Ultimo record"
+                    GUID = Begin
+                        0xae704f327d4352449b57540e40c43c71
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="GoToRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="3"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdLast\" xmlns=\"http://schemas.microsoft.com/office/access"
+                                "services/2009/11/application\"><Statements><Action Name=\"GoToRecord\"><Argument"
+                                " Name=\"Record\">Last</Argument><"
+                        End
+                        Begin
+                            Comment ="_AXL:/Action></Statements></UserInterfaceMacro>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000b0482080 ,
+                        0xb048200000000000000000000000000000000000d06840ff904820ff904820ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e06830ff ,
+                        0xb050208000000000000000000000000000000000e06830ffe07850ff905030ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e06830ff ,
+                        0x904820ffa0482070000000000000000000000000e06830fff08850ffa05030ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e07040ff ,
+                        0xd07040ff904820ffb05020700000000000000000e07040fff09060ffa05830ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e07840ff ,
+                        0xe08850ffd05820ff904820ffb050208000000000e07840fff09070ffb06040ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e07850ff ,
+                        0xf0a070fff07830ffd05820ff904820ffb0502090e07850fff09870ffb06840ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e08050ff ,
+                        0xf0b080ffff9860fff07830ffd05820ffa05830ffe08050fff0a080ffc07040ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e08860ff ,
+                        0xffb890ffffa870ffff9860ffd07040ffe0906070e08860fff0a890ffd07850ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e09060ff ,
+                        0xffc0a0ffffb890ffd07840ffe0906070e0906000e09060fff0b890ffd07850ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xffc0a0ffe08050ffe0906070e090600000000000e09870fff0c0a0ffd08050ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xe08860fff0906050e09060000000000000000000e09870fff0c8b0ffe08850ff ,
+                        0x00000000000000000000000000000000000000000000000000000000e09870ff ,
+                        0xf0906040e0906000000000000000000000000000e09870ffe0a080ffe08860f0 ,
+                        0x00000000000000000000000000000000000000000000000000000000e0906030 ,
+                        0xe090600000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000e0906000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =2903
+                    LayoutCachedTop =283
+                    LayoutCachedWidth =3479
+                    LayoutCachedHeight =859
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =5782
+                    Top =283
+                    Width =576
+                    Height =576
+                    TabIndex =5
+                    Name ="cmdTab"
+                    Caption ="Comando54"
+                    ControlTipText ="Apri maschera"
+                    GUID = Begin
+                        0x25d569634e16034297b3a72f77121895
+                    End
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="ArhivTab"
+                            Argument ="0"
+                            Argument =""
+                            Argument =""
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdTab\" xmlns=\"http://schemas.microsoft.com/office/accesss"
+                                "ervices/2009/11/application\"><Statements><Action Name=\"OpenForm\"><Argument Na"
+                                "me=\"FormName\">ArhivTab</Argumen"
+                        End
+                        Begin
+                            Comment ="_AXL:t></Action></Statements></UserInterfaceMacro>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x727272ff000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffff909090ff909090ff909090ff909090ff909090ff909090ffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffb3b3b3ffb3b3b3ff ,
+                        0xffffffff909090ffffffffffffffffffffffffffffffffff909090ffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffff909090ff909090ff909090ff909090ff909090ff909090ffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffb3b3b3ffb3b3b3ff ,
+                        0xffffffff909090ff909090ff909090ff909090ff909090ff909090ffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x727272ff00000000727272ffffffffff727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x727272ff00000000727272ffffffffffb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff00000000727272ffffffffffb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff00000000727272ffffffffffb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff00000000727272ffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000 ,
+                        0x0000000000000000727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff00000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =5782
+                    LayoutCachedTop =283
+                    LayoutCachedWidth =6358
+                    LayoutCachedHeight =859
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+Dim sqlc As String, rsNum As Recordset
+    Set db = CurrentDb
+    sqlc = "Select max([IdArhiv]) from Arhiv"
+    Set rsNum = db.OpenRecordset(sqlc, dbOpenSnapshot)
+    If Not IsNull(rsNum(0)) Then
+        TxtIdArhiv = rsNum(0) + 1
+    Else
+        TxtIdArhiv = 1
+    End If
+
+
+
+
+End Sub

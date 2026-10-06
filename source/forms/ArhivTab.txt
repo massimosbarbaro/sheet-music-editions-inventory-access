@@ -1,0 +1,344 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =1248522574
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    OrderByOn = NotDefault
+    AllowDesignChanges = NotDefault
+    ViewsAllowed =1
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =19510
+    DatasheetFontHeight =11
+    ItemSuffix =12
+    Right =28545
+    Bottom =12345
+    DatasheetGridlinesColor =15263976
+    Filter ="([Arhiv].[SKLADATELJ] Like \"*Paolo*\")"
+    OrderBy ="[Arhiv].[SKLADATELJ], [Arhiv].[NASLOV], [Arhiv].[NOTNI ZAPIS], [Arhiv].[IZDANO]"
+    RecSrcDt = Begin
+        0xf86d4d688de6e540
+    End
+    GUID = Begin
+        0x4b82871a8a7bb946af166748a59fd9e6
+    End
+    RecordSource ="Arhiv"
+    Caption ="ArhivTab"
+    DatasheetFontName ="Aptos"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =0
+            FontSize =11
+            BorderColor =8355711
+            ForeColor =8355711
+            FontName ="Aptos"
+            GridlineColor =10921638
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            TextFontFamily =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =10921638
+            ForeColor =4210752
+            FontName ="Aptos"
+            AsianLineBreak =1
+            GridlineColor =10921638
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1133
+            BackColor =15783096
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x11b24cbe1a27dc4ba97f3964f17e420e
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =60
+                    Top =690
+                    Width =750
+                    Height =315
+                    Name ="IdArhiv_Etichetta"
+                    Caption ="Arhiv"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x34967a505606224f9434d865f6b106b4
+                    End
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =810
+                    LayoutCachedHeight =1005
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =861
+                    Top =684
+                    Width =3249
+                    Height =315
+                    Name ="SKLADATELJ_Etichetta"
+                    Caption ="SKLADATELJ"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x868e6f5e1880d349a023e81411f9a7e7
+                    End
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =861
+                    LayoutCachedTop =684
+                    LayoutCachedWidth =4110
+                    LayoutCachedHeight =999
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =4195
+                    Top =680
+                    Width =3249
+                    Height =315
+                    Name ="NASLOV_Etichetta"
+                    Caption ="NASLOV"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x97debca732d4b641ae6d99403055fdeb
+                    End
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =4195
+                    LayoutCachedTop =680
+                    LayoutCachedWidth =7444
+                    LayoutCachedHeight =995
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =8844
+                    Top =680
+                    Width =2913
+                    Height =315
+                    Name ="IZDANO_Etichetta"
+                    Caption ="IZDANO"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xa9f280c159eca04393ff5ee2b5fbf766
+                    End
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =8844
+                    LayoutCachedTop =680
+                    LayoutCachedWidth =11757
+                    LayoutCachedHeight =995
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =57
+                    Top =57
+                    Width =1836
+                    Height =459
+                    FontSize =20
+                    Name ="Etichetta10"
+                    Caption ="ArhivTab"
+                    GUID = Begin
+                        0x8a28efb75215874796c1e6f4aa5f1e55
+                    End
+                    LayoutCachedLeft =57
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =1893
+                    LayoutCachedHeight =516
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =13662
+                    Top =623
+                    Width =1260
+                    Height =315
+                    Name ="Etichetta11"
+                    Caption ="NOTNI ZAPIS"
+                    GUID = Begin
+                        0xb4f084556e21494d9a7cf8314f82faf7
+                    End
+                    LayoutCachedLeft =13662
+                    LayoutCachedTop =623
+                    LayoutCachedWidth =14922
+                    LayoutCachedHeight =938
+                End
+            End
+        End
+        Begin Section
+            Height =417
+            Name ="Corpo"
+            GUID = Begin
+                0x9012f7aa38ab8e44bf886d27f595b1a8
+            End
+            AutoHeight =1
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =120
+                    Top =57
+                    Width =684
+                    Height =330
+                    ColumnWidth =1530
+                    Name ="IdArhiv"
+                    ControlSource ="IdArhiv"
+                    GUID = Begin
+                        0x1b5725693e77264d90b682fda878ba19
+                    End
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =804
+                    LayoutCachedHeight =387
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =861
+                    Top =57
+                    Width =3249
+                    Height =360
+                    ColumnWidth =3000
+                    TabIndex =1
+                    Name ="SKLADATELJ"
+                    ControlSource ="SKLADATELJ"
+                    GUID = Begin
+                        0x5bfd0c92ce749b43aaced2125beafbcf
+                    End
+
+                    LayoutCachedLeft =861
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =4110
+                    LayoutCachedHeight =417
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4167
+                    Top =57
+                    Width =4464
+                    Height =360
+                    ColumnWidth =3000
+                    TabIndex =2
+                    Name ="NASLOV"
+                    ControlSource ="NASLOV"
+                    GUID = Begin
+                        0xb1ab01a05952c445b3ef44e77520af94
+                    End
+
+                    LayoutCachedLeft =4167
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =8631
+                    LayoutCachedHeight =417
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =8808
+                    Top =57
+                    Width =4638
+                    Height =360
+                    ColumnWidth =3000
+                    TabIndex =3
+                    Name ="IZDANO"
+                    ControlSource ="IZDANO"
+                    GUID = Begin
+                        0x66f3f3c5cd441942a49b14db24e7ad9c
+                    End
+
+                    LayoutCachedLeft =8808
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =13446
+                    LayoutCachedHeight =417
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =13549
+                    Top =56
+                    Width =5961
+                    Height =315
+                    TabIndex =4
+                    Name ="NOTNI ZAPIS"
+                    ControlSource ="NOTNI ZAPIS"
+                    EventProcPrefix ="NOTNI_ZAPIS"
+                    GUID = Begin
+                        0x039afff9951ae14db87398f5bdd89c8e
+                    End
+
+                    LayoutCachedLeft =13549
+                    LayoutCachedTop =56
+                    LayoutCachedWidth =19510
+                    LayoutCachedHeight =371
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x857a1c0787fcc544960de8b232bb6698
+            End
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
