@@ -4,7 +4,7 @@
 
 *Inventario delle edizioni musicali a stampa di un archivio musicale*
 
-**Microsoft Access** · 2022 · version 2022  
+**db** · 2022 · version 2022  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -49,7 +49,7 @@ The database is published **empty**: every table has been emptied and the file c
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205236](https://doi.org/10.5281/zenodo.23205236).
 
-> Sbarbaro, Massimo. 2022. *Inventory of printed music editions for a music archive*. Software (Microsoft Access, 2022), version 2022. Zenodo. https://doi.org/10.5281/zenodo.23205236.
+> Sbarbaro, Massimo. 2022. *Inventory of printed music editions for a music archive*. Software (db, 2022), version 2022. Zenodo. https://doi.org/10.5281/zenodo.23205236.
 
 ## License
 

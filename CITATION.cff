@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you refer to this software, please cite it as below."
 type: software
-title: "Inventory of printed music editions for a music archive (Microsoft Access, 2022)"
+title: "Inventory of printed music editions for a music archive (db, 2022)"
 version: "2022"
 abstract: "This database, with a Slovene interface, inventories the printed music editions of a music archive. Each item records edition mark, old mark, composer, title, publisher, year of publication, type of notation and number of copies, and is classified by typology."
 authors:

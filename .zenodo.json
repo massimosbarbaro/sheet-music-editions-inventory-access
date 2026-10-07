@@ -1,8 +1,8 @@
 {
-  "title": "Inventory of printed music editions for a music archive (Microsoft Access, 2022)",
+  "title": "Inventory of printed music editions for a music archive (db, 2022)",
   "upload_type": "software",
   "publication_date": "2022-11-15",
-  "description": "<p><em>Inventario delle edizioni musicali a stampa di un archivio musicale</em></p><p>This database, with a Slovene interface, inventories the printed music editions of a music archive. Each item records edition mark, old mark, composer, title, publisher, year of publication, type of notation and number of copies, and is classified by typology.</p><p>Designed and programmed by Massimo Sbarbaro in 2022 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "description": "<p><em>Inventario delle edizioni musicali a stampa di un archivio musicale</em></p><p>This database, with a Slovene interface, inventories the printed music editions of a music archive. Each item records edition mark, old mark, composer, title, publisher, year of publication, type of notation and number of copies, and is classified by typology.</p><p>Designed and programmed by Massimo Sbarbaro in 2022 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
   "creators": [
     {
       "name": "Sbarbaro, Massimo",
